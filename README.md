@@ -1,4 +1,4 @@
-<h1 align="center">Hey 👋 Sou o Lucas</h1>
+<h1 align="center">Eai blz? 👋 Sou o Lucas</h1>
 
 <p align="center">Desenvolvedor Full Stack Júnior — já criei, sozinho, 3 sistemas de gestão em produção que substituíram processos manuais na Seção de T.I. do Exército Brasileiro. Hoje sigo evoluindo essa base com projetos pessoais para clientes reais.</p>
 
