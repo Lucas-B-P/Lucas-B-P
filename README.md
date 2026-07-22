@@ -42,6 +42,8 @@
 
 ### 🚀 Projetos em destaque
 
+- **[Hotel de Trânsito (HTM)](https://github.com/Lucas-B-P/Hotel-de-Transito)** — sistema de hotelaria do Exército Brasileiro (hóspedes, apartamentos, estacionamento, estoque e frigobar)
+
 - **[DropSage](https://github.com/Lucas-B-P/DropSage)** — gerenciador multicanal para vendedores em marketplaces (Shopee, Mercado Livre), integração via API
 - **[Luiz Cesta Básica](https://github.com/Lucas-B-P/catalogo-luan)** — catálogo de vendas para cliente, em produção
 - **[CINNEFLIX](https://github.com/Lucas-B-P/CINNEFLIX)** — site de venda de assinaturas de IPTV
