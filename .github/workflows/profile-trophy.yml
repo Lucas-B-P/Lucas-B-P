@@ -1,0 +1,35 @@
+name: update profile trophy
+
+on:
+  schedule:
+    - cron: "0 0 * * *"
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Generate trophy card
+        uses: soulteary/github-profile-trophy-action@v1.0.0
+        with:
+          options: "username=${{ github.repository_owner }}&theme=dracula&column=7&row=1&margin-w=8&margin-h=8"
+          path: .github/assets/trophy.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+          version: latest
+
+      - name: Commit trophy card
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          mkdir -p .github/assets
+          git add .github/assets/trophy.svg
+          git commit -m "Atualiza trophy do perfil" || exit 0
+          git push

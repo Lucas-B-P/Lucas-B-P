@@ -25,12 +25,13 @@
 ###
 
 <div align="center">
-  <img src="https://streak-stats.demolab.com?user=Lucas-B-P&locale=pt-BR&mode=daily&theme=dracula&hide_border=false&border_radius=5&order=3" height="150" alt="streak graph" />
-  <img src="https://github-profile-trophy.vercel.app/?username=Lucas-B-P&theme=dracula&column=-1&row=1&margin-w=8&margin-h=8&no-bg=false&no-frame=false" height="150" alt="trophy graph" />
+  <img src="https://streak-stats.demolab.com?user=Lucas-B-P&locale=pt-BR&mode=daily&theme=dracula&hide_border=false&border_radius=5&cache_seconds=3600&t=2" height="150" alt="streak graph" />
+  <img src="https://raw.githubusercontent.com/Lucas-B-P/Lucas-B-P/main/.github/assets/trophy.svg" height="150" alt="trophy graph" />
 </div>
 
 ###
 
+<!-- Pacman: gerado diariamente a partir do seu contribution graph do GitHub (cada quadrado = um dia com commits) -->
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Lucas-B-P/Lucas-B-P/output/pacman-contribution-graph-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Lucas-B-P/Lucas-B-P/output/pacman-contribution-graph.svg">
