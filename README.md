@@ -31,6 +31,14 @@
 
 ###
 
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Lucas-B-P/Lucas-B-P/output/pacman-contribution-graph-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Lucas-B-P/Lucas-B-P/output/pacman-contribution-graph.svg">
+  <img alt="pacman contribution graph" src="https://raw.githubusercontent.com/Lucas-B-P/Lucas-B-P/output/pacman-contribution-graph.svg">
+</picture>
+
+###
+
 ### 🚀 Projetos em destaque
 
 - **[DropSage](https://github.com/Lucas-B-P/DropSage)** — gerenciador multicanal para vendedores em marketplaces (Shopee, Mercado Livre), integração via API
